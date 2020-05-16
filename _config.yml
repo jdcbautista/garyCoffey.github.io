@@ -3,7 +3,7 @@ logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Fill in description
   <br><br>
-  <a href="www.linkedin.com/in/gary-coffey">View My LinkedIn Profile</a> 
+  
   
 theme: jekyll-theme-hacker
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+google_analytics: UA-166811677-1 # your Google Analytics tracking ID here
