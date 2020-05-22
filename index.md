@@ -3,8 +3,6 @@
 ---
 [Small algorithms](./algorithms)
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/repls/KnowingSlateblueCompilerbug?lite=true"></iframe>
-
 ### Category Name 1 
 
 [Project 1 Title](/sample_page)
