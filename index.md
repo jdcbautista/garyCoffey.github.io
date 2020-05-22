@@ -1,6 +1,7 @@
 ## Portfolio
 
 ---
+[Small algorithms](./algorithms)
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/repls/KnowingSlateblueCompilerbug?lite=true"></iframe>
 
