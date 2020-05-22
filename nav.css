@@ -1,4 +1,4 @@
-/* The navigation bar */
+The navigation bar
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -13,6 +13,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
+  /* padding: 14px 16px; */
   text-decoration: none;
 }
 
@@ -20,4 +21,9 @@
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
 }

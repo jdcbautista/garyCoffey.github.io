@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+{% for algorithm in site.categories.algorithms %}
+  <ul>
+    <li>  
+      <a href="{{ algorithm.url }}">
+        {{ algorithm.title }}
+      </a>
+    </li>
+  </ul>
+{% endfor%}
+
+{{ content }}

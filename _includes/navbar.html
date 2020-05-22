@@ -1,7 +1,13 @@
-<div class='navbar'>
-  <ul>
-    <li><a href="{{site.baseurl}}/">Home</a></li>
-    <li><a href="{{site.baseurl}}/#algorithms">Small Algorithm Projects</a></li>
-    <li><a href="{{site.baseurl}}/#resume">Resume</a></li>
+<div class="navbar">
+  <ul class="nav navbar-nav">
+    {% for page in include.pages %}
+      {% if page.title != nil%}
+        <li>
+          <a href="{{ page.url }}">
+            {{ page.title }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor%}
   </ul>
-</div>  
+</div>
