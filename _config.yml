@@ -32,6 +32,7 @@ theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
+
 # defaults: 
 #   -
 #     scope:

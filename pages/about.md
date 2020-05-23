@@ -1,18 +1,15 @@
 ---
 layout: page
-title: "About"
+title: "About This Site"
 permalink: '/about/'
+github_url: 'https://github.com/garyCoffey/garyCoffey.github.io'
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### Where is the code located?
+The code for this site is located [here]({{page.github_url}}) on github.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### Where is this site hosted?
+This site is also hosted on github using github-pages.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+### What technology was used
+This site was built using Jekyll. I think this was perfect for what I wanted this site to  be. Just a small-scale site with just the minimum necassary. I like to always start small when building something new and wait to upgrade when/if it becomes neeeded. This was also the first site I built using Jekyll and it was fun to learn over a weekend. 
