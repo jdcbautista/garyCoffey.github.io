@@ -6,7 +6,7 @@ categories: algorithms
 repl_link: 'https://repl.it/repls/GruesomeBossySequences?lite=true'
 ---
 
-{{ page.title }}
+## {{ page.title }}
 
 ![Harry Potter sorting hat](https://media.giphy.com/media/JDAVoX2QSjtWU/giphy.gif)
 
@@ -35,5 +35,10 @@ The problem this algorithm solves is the need to merge to sorted arrays together
 **Restrictions**
 
 You may not use any additional methods, sorting routines etc. For full credit, your solution may only go through each array one time ( so in particular - no nested loops)
+
+
+### Interactive Terminal
+
+I have the repo of this algorithm linked to an interactive repl. If you would like to try the code out yourself feel free to go to the repl and give it a shot. It should by default run the test cases I have written and print in the terminal below .
 
 <iframe height="400px" width="100%" src="{{page.repl_link}}?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
