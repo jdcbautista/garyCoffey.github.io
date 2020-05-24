@@ -3,7 +3,7 @@ layout: posts
 title: "My First Programming Experience"
 categories: blogs
 ---
-It's hard to say where I began with software engineering. My first introduction to code was during my time in the Air Force.
+My first introduction to code was during my time in the Air Force.
 
 While working as a *Linux System Admin*, my colleague decided to write a script to make our jobs easier. One of our tasks involved comparing flight data figures to set limits. If the data exceeded the limits in some way the 💣er would possibly have to receive special maintenance.
 
