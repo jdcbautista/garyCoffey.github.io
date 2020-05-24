@@ -6,33 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+
+    <script src="https://kit.fontawesome.com/3a3b710114.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="wrapper"></div>
 
       {% include navbar.html pages=site.pages %}
 
-      <br />
       <header>
-      <hr />
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}
-          <a href="http://www.linkedin.com/in/gary-coffey">View My LinkedIn Profile</a>
-        </p>
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-        
+        <div>
+          <p>Contact</p>
+          {% include social-media-links.html %}
+        </div>
       </header>
       <section>
 

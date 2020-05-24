@@ -4,4 +4,4 @@ title: "Home"
 permalink: '/'
 ---
 
-klsjakljlksjafklj
+{{ site.description }}

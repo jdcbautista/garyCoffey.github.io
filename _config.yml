@@ -19,13 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: My Journey Into Coding
-email: garycoffey12@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my site! Here I will tell you a little about myself as well as my journey into coding. I will also use this as a place to showcase some of the work that I have completed over the years. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 theme: jekyll-theme-hacker
