@@ -1,5 +1,5 @@
 ---
-layout: algorithm
+layout: posts
 title: "Merge Sort"
 github_name: "merge_sort"
 categories: algorithms

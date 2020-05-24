@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 title: "My First Programming Experience"
-categories: blog_posts
+categories: blogs
 ---
 It's hard to say where I began with software engineering. My first introduction to code was during my time in the Air Force.
 
