@@ -15,11 +15,19 @@ Welcome to the site! Thank you for visiting. My name is Gary Coffey. I created t
 
 ### Career
 
+For this section, I don't want to add yet another resume that I will have to keep up to date. I just want to talk in general about the companies I have worked for and give a general overview of my positions/experiences.
+
+I have a long career that includes software engineering *insert time once retired* and 7 years in the Air Force before that. I have enjoyed both experiences and am thankful for all opportunities.
+
 **Software Engineering**
+
+When I first started writing here, it quickly became it's own [blog post]().
 
 **Air Force**
 
 ![B-2 Bomber](https://media.giphy.com/media/9XsuW41ytuk3m/giphy.gif)
+
+### Education
 
 ### Languages and Technologies
 

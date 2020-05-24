@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -20,7 +20,7 @@
 
 title: My Journey Into Coding
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my site! Here I will tell you a little about myself as well as my journey into coding. I will also use this as a place to showcase some of the work that I have completed over the years. 
+  Welcome to my site! Here I will tell you a little about myself as well as my journey into coding. I will also use this as a place to showcase some of the work that I have completed over the years.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -30,12 +30,12 @@ plugins:
   - jekyll-feed
 
 
-# defaults: 
-#   -
-#     scope:
-#       path:
-#       type:
-#     values:
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      permalink: /:collection/:categories/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
