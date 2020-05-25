@@ -1,16 +1,14 @@
 ---
-layout: posts
+layout: post
 title: "Merge Sort"
 github_name: "merge_sort"
 categories: algorithms
 repl_link: 'https://repl.it/repls/GruesomeBossySequences?lite=true'
 ---
-
-## {{ page.title }}
-
 ![Harry Potter sorting hat](https://media.giphy.com/media/JDAVoX2QSjtWU/giphy.gif)
 
-**Code on Github**
+#### Code on Github
+
  <a href="{{ site.data.social-media['github'].href }}{{ site.data.social-media['github'].id }}/{{page.github_name}}" title="{{ site.data.social-media['github'].title }}"><i class="fa {{ site.data.social-media['github'].fa-icon }}"></i></a>
 
 ### Language

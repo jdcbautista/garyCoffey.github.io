@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: "My First Programming Experience"
 categories: blogs
 ---
