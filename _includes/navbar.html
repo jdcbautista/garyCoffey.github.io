@@ -4,8 +4,13 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="/">
+          Home
+        </a>
+      </li>
       {% for page in include.pages %}
-        {% if page.title != nil %}
+        {% if page.title != nil and page.title != 'Home' and page.title != 'About' %}
           <li class="nav-item">
             <a class="nav-link" href="{{ page.url }}">
               {{ page.title }}
@@ -13,6 +18,11 @@
           </li>
         {% endif %}
       {% endfor%}
+      <li class="nav-item">
+        <a class="nav-link" href="/about">
+          About
+        </a>
+      </li>
     </ul>
   </div>
 </nav>

@@ -22,7 +22,7 @@ For this section, I don't want to add yet another resume that I will have to kee
 
 I have a long career that includes software engineering *insert time once retired* and 7 years in the Air Force before that. I have enjoyed both experiences and I am thankful for all opportunities they have opened up for me.
 
-#### Software Engineering
+* #### Software Engineering
 
 I love this career! The greatest thing about working with software is not having to go into work and fake enthusiasm about what I am doing. I enjoy working in software. It is like solving riddles all day at work.
 
@@ -30,15 +30,17 @@ I got into this career by completing fourteen weeks at Code Platoon boot camp. C
 
 After completing Code Platoon, I got my first job as a Software Apprentice through Code Platoons apprentice partnership with Enova. Enova has been really great for me and I have learned so much since starting there. They have a great work culture, and I've been fortunate to work with so many smart people that have been willing to help teach me what I didn't learn in the bootcamp.
 
-#### Air Force
+* ####  Air Force
 
 ![B-2 Bomber](https://media.giphy.com/media/9XsuW41ytuk3m/giphy.gif)
 
 I spent 7 years in the United States Air Force. I was given some really awesome opportunities during this time. After training, I spent the entirety of my time working on the jet you see above, the B-2 Bomber. It is a really awesome machine.
 
-I had serval jobs throughout my time in the Air Force. I started out as an Electronic Warfare Avionics technician. That was also my AFSC title but my work title changed with my other jobs. This job was mainly involved with troubleshooting/replacing the B-2's electronic warfare systems. I am hesitant to list to many details about this job, but basically our systems made sure that pilots were able to return home safely from sorties.
+I had serval jobs throughout my time in the Air Force.
 
-My next job in the Air Force was working as a *Linux Systems Administrator* for the computers that processed flight data for the B-2. After each sortie, we would get a card with flight data on it, upload it, and analyze it for any issues the B-2 may be having. We also did the common Admin duties of setting up accounts for other users, helping with password resets, performing security audits, data backups, etc. This was the first position that really helped build the foundation for my software engineering career. Here I got to start learning terminal navigation and even got to fix some program scripts that were written in pearl.
+* I started out as an Electronic Warfare Avionics technician. That was also my AFSC title but my work title changed with my other jobs. This job was mainly involved with troubleshooting/replacing the B-2's electronic warfare systems. I am hesitant to list to many details about this job, but basically our systems made sure that pilots were able to return home safely from sorties.
+
+* My next job in the Air Force was working as a *Linux Systems Administrator* for the computers that processed flight data for the B-2. After each sortie, we would get a card with flight data on it, upload it, and analyze it for any issues the B-2 may be having. We also did the common Admin duties of setting up accounts for other users, helping with password resets, performing security audits, data backups, etc. This was the first position that really helped build the foundation for my software engineering career. Here I got to start learning terminal navigation and even got to fix some program scripts that were written in pearl.
 
 ### Education
 
