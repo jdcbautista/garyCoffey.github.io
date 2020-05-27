@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Building Your Portfolio on Github Pages"
-github_name: "garyCoffey.github.io"
+title: 'Building Your Portfolio on Github Pages'
+github_name: 'portfolio_example'
 categories: tutorials
 ---
 #### Code on Github
@@ -13,7 +13,12 @@ categories: tutorials
 This site was built using Jekyll.
 
 ### Description
-In this tutorial, I will walk you through how to build a work portfolio website.
+
+In this tutorial, I will walk you through how to build a work portfolio website. With this site, you will be able to post all of your personal/group projects in an interesting format for prospective employers.
+
+### File Structure
+
+Once you are complete, you will have a file structure similar to the below. Feel free to customize it in a way that is right for you!
 
 ```tree
 .
@@ -62,3 +67,21 @@ In this tutorial, I will walk you through how to build a work portfolio website.
     └── tutorials.md
 
 ```
+
+Let's get started. First, run the following commands:
+
+```bash
+gem install jekyll;
+jekyll new ./;
+bundle exec jekyll serve;
+```
+
+At this point, you should have the boilerplate site up and running. You should be able to get visit `localhost:4000` and see something running.
+
+All Done!
+
+![SpongeBob rubbing his hands like job complete.](https://media.giphy.com/media/26u4lOMA8JKSnL9Uk/giphy.gif)
+
+Just Kidding....
+
+We have the site up and going but we still have a lot of customization to do.
