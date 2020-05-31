@@ -2,7 +2,7 @@
 layout: page
 title: 'About'
 permalink: '/about/'
-github_name: 'garyCoffey/garyCoffey.github.io'
+github_name: 'garyCoffey.github.io'
 ---
 
 ### Code on Github
