@@ -142,29 +142,31 @@ Let's add a new folder named *_layouts* at the root. I have linked the [Jekyll d
 Glad to have you back. Ok now let's add a file in the new *_layouts* folder named *default.html*. Inside of that folder, lets paste in the followin HTML code:
 
 ```html
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper"></div>
-      <section>
-        {{ content }}
-      </section>
-    </div>
-  </body>
-</html>
+  <html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+      <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+      <div class="wrapper"></div>
+        <section>
+          { content }
+        </section>
+      </div>
+    </body>
+  </html>
 ```
 
-The code above doesn't have a lot of special things going on just yet. I would like to point out the use of `{{content}}`. That is actually a key Jekyll word that is used to display your actual content. You can read about other keywords available in the [Jekyll docs for variables](https://jekyllrb.com/docs/variables/). We can look at the  *default.html* as a wrapper since it will encase every other bit of your code. Whatever we put in this file later will appear on every page of your site. This will be a useful place for a *navbar* as well as your *contact* info in the footer. We will get to that later though.
+> Quick note: Anywhere you see {} just know that it should be enclosed by another set of {}. Like '{{}}'. I was having some issue with Jekyll kicking into evaluation mode so for now just assume that the out curly braces should be included in your code and manually add them.
+
+The code above doesn't have a lot of special things going on just yet. I would like to point out the use of `{content}`. That is actually a key Jekyll word that is used to display your actual content. You can read about other keywords available in the [Jekyll docs for variables](https://jekyllrb.com/docs/variables/). We can look at the  *default.html* as a wrapper since it will encase every other bit of your code. Whatever we put in this file later will appear on every page of your site. This will be a useful place for a *navbar* as well as your *contact* info in the footer. We will get to that later though.
 
 Ok now lets go ahead and add another *layout*. in the *_layouts* folder, add a new file named *page.html*. We will use this *layout* for each page of your site. In the *page.html* copy and paste the following:
 
@@ -174,16 +176,16 @@ layout: default
 ---
 <h2>{{page.title}}</h2>
 
-{{ content }}
+{ content }
 
 ```
 
 Okay there is a little bit going on here so lets see what's happening.
 - The first bit, is something called Front Matter. You can take a deep dive in the [Jekyll docs for Front Matter here](https://jekyllrb.com/docs/front-matter/) if you like. Basically, Front matter is used to first inherit from other *layouts* as done here. But it can also be used to place variables that you want to use in your file.
 
-- The next part starts out as a standard html h2 tag. But then we have `{{page.title}}`. In MarkDown/html files in Jekyll, anything between `{{}}` is evaluated as code. Whatever that code evaluates to is what is actually displayed on a page. In this example, we are using the global Jekyll variable of `page` which stands in for whatever current page you are on. We then call `.title` which will reach into the Front Matter of your page and look to display the value for the variable of `title`.
+- The next part starts out as a standard html h2 tag. But then we have `{page.title}`. In MarkDown/html files in Jekyll, anything between `{}` is evaluated as code. Whatever that code evaluates to is what is actually displayed on a page. In this example, we are using the global Jekyll variable of `page` which stands in for whatever current page you are on. We then call `.title` which will reach into the Front Matter of your page and look to display the value for the variable of `title`.
 
-- The last thing we have here is `{{ content }}` which we have previously discussed during the setup of the *default.html layout*.
+- The last thing we have here is `{ content }` which we have previously discussed during the setup of the *default.html layout*.
 
 Ok now we are getting really close to being able to fire our app back up.
 
