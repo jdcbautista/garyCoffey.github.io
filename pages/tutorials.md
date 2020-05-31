@@ -7,4 +7,4 @@ permalink: '/tutorials/'
 
 ![Clippy the paperclip](/images/clippy.png)
 
-During my learning of software development, I have used many tutorials. I will dedicate this page to creating to tutorials for future developers that they will hopefully find helpful.
+During my learning of software development, I have used many tutorials. I will dedicate this page to creating tutorials for future developers that they will hopefully find helpful.
