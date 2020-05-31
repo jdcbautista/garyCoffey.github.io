@@ -139,10 +139,9 @@ It would be great to see what everything looks like, but you might find things t
 
 Let's add a new folder named *_layouts* at the root. I have linked the [Jekyll docs for layouts](https://jekyllrb.com/docs/layouts/) a few times above. If you haven't done so yet, please take a minute to browse through them.
 
-Glad to have you back. Ok now let's add a file in the new *_layouts* folder named *default.html*. Inside of that folder, lets paste in the followin HTML code:
+Glad to have you back. Ok now let's add a file in the new *_layouts* folder named *default.html*. Inside of that folder, lets paste in the following html code:
 
 ```html
-
   <html lang="{{ site.lang | default: "en-US" }}">
     <head>
       <meta charset="UTF-8">
@@ -164,7 +163,7 @@ Glad to have you back. Ok now let's add a file in the new *_layouts* folder name
   </html>
 ```
 
-> Quick note: Anywhere you see {} just know that it should be enclosed by another set of {}. Like '{{}}'. I was having some issue with Jekyll kicking into evaluation mode so for now just assume that the out curly braces should be included in your code and manually add them.
+> Quick note: Anywhere you see {} just know that it should be enclosed by another set of {}. Like '{'{}'}' without the quotes. I was having some issue with Jekyll kicking into evaluation mode so for now just assume that the out curly braces should be included in your code and manually add them.
 
 The code above doesn't have a lot of special things going on just yet. I would like to point out the use of `{content}`. That is actually a key Jekyll word that is used to display your actual content. You can read about other keywords available in the [Jekyll docs for variables](https://jekyllrb.com/docs/variables/). We can look at the  *default.html* as a wrapper since it will encase every other bit of your code. Whatever we put in this file later will appear on every page of your site. This will be a useful place for a *navbar* as well as your *contact* info in the footer. We will get to that later though.
 
