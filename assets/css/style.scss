@@ -11,8 +11,7 @@ section {
 }
 
 blockquote {
-  background: linear-gradient(45deg, #eddbff, transparent);
-  color: rebeccapurple;
+  color: #b5e853;
   margin-left: 0;
   margin-right: 0;
   padding: 1em;
@@ -38,4 +37,9 @@ blockquote {
 .thumbnail {
   float: left; /* replaces the style previously inherited by the browser */
   margin: 0 16px 16px 0;
+}
+
+.description {
+  font-style: italic;
+  color: #b5e853;
 }

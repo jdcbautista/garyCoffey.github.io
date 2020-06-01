@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Building Your Portfolio on Github Pages'
+description: 'We will be walking through how to develop your own portfolio website using the Jekyll framework.'
 github_name: 'portfolio_example'
 categories: tutorials
 ---
