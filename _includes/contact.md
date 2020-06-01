@@ -1,5 +1,6 @@
 <hr/>
 <div class='contact'>
+  <h5>Contact</h5>
   <p>
     Name: Gary Coffey
     <br>
