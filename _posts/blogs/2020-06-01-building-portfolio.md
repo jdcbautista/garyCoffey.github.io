@@ -112,7 +112,7 @@ That's the purpose for a [layout](https://jekyllrb.com/docs/layouts/). Instead o
 Ok now for our part, we are going to be using a very basic them called hacker. It is basic in the sense that it does not have any predefined layouts. We will have to build those.
 
 > **Quick Note**
- You are welcome to use other themes than Hacker for your page. This tutorial will be using that theme but I'm sure you can still make another one work. Before you get to far with one however, you better make sure it is [supported by Github pages](https://pages.github.com/themes/) (assuming that is where you are hosting at). An easy way to explore other themes is to go to to [rubygems.org](https://rubygems.org) and [search for jekyll-themes](https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme).
+ You are welcome to use other themes than Hacker for your page. This tutorial will be using that theme but I'm sure you can still make another one work. Before you get too far with one however, you better make sure it is [supported by Github pages](https://pages.github.com/themes/) (assuming that is where you are hosting at). An easy way to explore other themes is to go to to [rubygems.org](https://rubygems.org) and [search for jekyll-themes](https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme).
 
 Okay now that all of that is out of the way lets get our theme updated. Let's open back up our *Gemfile*.
 
