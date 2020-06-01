@@ -4,10 +4,6 @@ title: 'Building Your Portfolio on Github Pages'
 github_name: 'portfolio_example'
 categories: tutorials
 ---
-#### Code on Github
-
- <a href="{{ site.data.social-media['github'].href }}{{ site.data.social-media['github'].id }}/{{page.github_name}}" title="{{ site.data.social-media['github'].title }}"><i class="fa {{ site.data.social-media['github'].fa-icon }}"></i></a>
-
 ### Language
 
 This site was built using [Jekyll](https://jekyllrb.com/).
