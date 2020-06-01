@@ -95,7 +95,6 @@ In my case, `bundle update github-pages` didn't quite work. I followed the other
 
 ```shell
 gem install github-pages;
-bundle exec jekyll serve;
 bundle install;
 bundle update;
 ```
@@ -174,6 +173,7 @@ layout: default
 ```
 
 Okay there is a little bit going on here so lets see what's happening.
+
 - The first bit, is something called Front Matter. You can take a deep dive in the [Jekyll docs for Front Matter here](https://jekyllrb.com/docs/front-matter/) if you like. Basically, Front matter is used to first inherit from other *layouts* as done here. But it can also be used to place variables that you want to use in your file.
 
 - The next part starts out as a standard html h2 tag. But then we have `{page.title}`. In MarkDown/html files in Jekyll, anything between {`{}`} is evaluated as code. Whatever that code evaluates to is what is actually displayed on a page. In this example, we are using the global Jekyll variable of `page` which stands in for whatever current page you are on. We then call `.title` which will reach into the Front Matter of your page and look to display the value for the variable of `title`.
