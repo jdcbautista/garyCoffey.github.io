@@ -3,6 +3,7 @@ layout: default
 ---
 <div class='header'>
   {% if page.thumbnail %}
+    <img class='thumbnail' alt={{page.alt_text}} src={{page.thumbnail_src}}></img>
   {% endif %}
   <h2>{{ page.title }}</h2>
   {% if page.description %}

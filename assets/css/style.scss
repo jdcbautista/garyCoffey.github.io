@@ -3,6 +3,22 @@
 
 @import "{{ site.theme }}";
 
+section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+
+blockquote {
+  background: linear-gradient(45deg, #eddbff, transparent);
+  color: rebeccapurple;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1em;
+  border-radius: 4px;
+}
+
 .navbar ul li  {
   list-style-image: none;
 }
@@ -11,17 +27,15 @@
   justify-content: center;
 }
 
-section {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 24px;
-}
-
 .contact {
   text-align: center;
 }
 
 .header {
   text-align: center;
+}
+
+.thumbnail {
+  float: left; /* replaces the style previously inherited by the browser */
+  margin: 0 16px 16px 0;
 }
