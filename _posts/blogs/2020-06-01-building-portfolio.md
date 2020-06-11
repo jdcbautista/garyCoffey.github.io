@@ -245,7 +245,7 @@ Inside of our new *_includes* folder, add a file name *navbar.html*. Inside of t
       {'% for page in include.pages %'}
         {'% if page.title != nil and page.title != 'Home' and page.title != 'About' %'}
           <li class="nav-item">
-            <a class="nav-link" href="{{ page.url }}">
+            <a class="nav-link" href="{'{ page.url }'}">
               {'{ page.title }'}
             </a>
           </li>
