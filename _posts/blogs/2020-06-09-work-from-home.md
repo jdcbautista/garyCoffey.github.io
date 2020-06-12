@@ -46,4 +46,4 @@ Working from home benefits employees, employers, and society. Companies and indi
 
 #### Citations
 
-> Retrieved date (2020, June 09). Latest Work-At-Home/Telecommuting/Mobile Work/Remote Work Statistics. Global Workplace Analytics. Retrieved from https://globalworkplaceanalytics.com/telecommuting-statistics
+> Latest Work-At-Home/Telecommuting/Mobile Work/Remote Work Statistics. Global Workplace Analytics. Retrieved date (2020, June 09).Retrieved from <https://globalworkplaceanalytics.com/telecommuting-statistics>

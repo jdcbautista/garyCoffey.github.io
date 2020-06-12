@@ -38,11 +38,12 @@ I spent 7 years in the United States Air Force. I was given some really awesome 
 
 I had serval jobs throughout my time in the Air Force.
 
-* I started out as an Electronic Warfare Avionics technician. That was also my AFSC title but my work title changed with my other jobs. This job was mainly involved with troubleshooting/replacing the B-2's electronic warfare systems. I am hesitant to list to many details about this job, but basically our systems made sure that pilots were able to return home safely from sorties.
+* I started out as an Electronic Warfare Avionics technician. That was also my AFSC title but my work title changed with my other jobs. This job was mainly involved with troubleshooting/replacing the B-2's electronic warfare systems. The cool part of this job was we regularly got to start up the B-2 (without engines) to make sure our fixes corrected the initial problem. The electronic warfare systems of any jet deal with threats on the electromagnetic spectrum.
 
 * My next job in the Air Force was working as a *Linux Systems Administrator* for the computers that processed flight data for the B-2. After each sortie, we would get a card with flight data on it, upload it, and analyze it for any issues the B-2 may be having. We also did the common Admin duties of setting up accounts for other users, helping with password resets, performing security audits, data backups, etc. This was the first position that really helped build the foundation for my software engineering career. Here I got to start learning terminal navigation and even got to fix some program scripts that were written in pearl.
 
-### Education
+* My final job in the Air Force was working as a testing director for the B-2 training system. THis role was dealt with some contracting elements, course curriculum, and (the coolest part) upgrading maintenance and flight simulators. For maintenance and pilots, a lot of training has to be done before/during the time someone is allowed to complete the tasks on the actual B-2. For that reason, we made sure that when contractors completed new course curriculum or updates to the trainers, that everything was correct. To do that, we would compile a list of required system tests and coordinate the completion of them.
+
 
 ### Languages and Technologies
 
@@ -52,13 +53,13 @@ I had serval jobs throughout my time in the Air Force.
 
 HERP DERP Best Tech 2019 -- Enova
 
-![Picture of herp derp project. Fake guy with jackolantern head with led lights connected to computer monitor.](/images/herp_derp.png)
-
-One of the cool experiences I had at Enova was participating in Herp Derp 2019. The idea of this challenge was to make something cool and Halloween themed using a Raspberry Pi and programming.
-
-Our team created a program that allowed users to ask questions of our Principal Engineers. The program would then send the question through a stream of LED lights to the head of the Engineer, and a random answer would come back. The questions were also analyzed using Amazon sentiment, and the LED lights were colored according to the sentiment of the question.
+One of the cool experiences I had at Enova was participating in Herp Derp 2019. The idea of this challenge was to make something cool and Halloween themed using a Raspberry Pi and programming. Our team one the award for best tech. I have some more written about it in the projects section if your curious.
 
 ### Volunteering
+
+I think volunteering is a great way to give back to a community and to help develop technical skills. I have done a lot of volunteer work for Code Platoon since graduating. I am current the Vice President of the Code Platoon Alumni Association and we have several projects in the works (discussed in the projects section).
+
+I also helped with the #WomenWhoGO organization here in Chicago. I helped out with hosting setup and even helped develop a frontend for a Go battleship game backend that they created. We completed this projects in 2019 by meeting once a month.
 
 ### Media Attention
 

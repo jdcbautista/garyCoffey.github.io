@@ -13,7 +13,7 @@ This problem was solve in Java.
 
 ### Description
 
-The problem this algorithm solves is the need to merge to sorted arrays together. I solved this problem as part of some homework for Data Structures I. I was pretty happy with the solution I had for this so I have included it here. Below I have some of the instructions the professor had given us for the problem.
+The problem this algorithm solves is the need to merge 2 sorted arrays together. I solved this problem as part of some homework for Data Structures I. I was pretty happy with the solution I had for this so I have included it here. Below I have some of the instructions the professor had given us for the problem.
 
 #### Examples
 

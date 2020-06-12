@@ -28,6 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+
 google_analytics: UA-166811677-1
 
 defaults:
