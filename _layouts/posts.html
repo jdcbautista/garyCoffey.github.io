@@ -8,12 +8,22 @@ layout: page
 <hr/>
 
 {% assign category = page.dir | replace: '/', '' %}
-<ul>
-  {% for post in site.categories[category] %}
-    <li>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </li>
-  {% endfor%}
-</ul>
+  <div class="row">
+    {% for post in site.categories[category] %}
+      <div class="col-sm-5 m-2">
+        <a href="{{ post.url }}">
+          <div class="card h-100">
+            {% if post.img %}
+              <img class="card-img-top" src="{{post.img}}" alt="{{post.alt}}"/>
+            {% else %}
+              <img class="card-img-top" src="/images/gemfile.png" alt="Card image cap" />
+            {% endif %}
+            <div class="card-body">
+              <h5 class="card-title">{{ post.title }}</h5>
+              <p class="card-text">{{ post.description | slice: 0, 60 }}...</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor%}
+  </div>

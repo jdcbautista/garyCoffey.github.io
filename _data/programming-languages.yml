@@ -39,3 +39,9 @@ vueJs:
   experience_level: 'Medium'
   production_work: 'Yes'
   fa-icon: 'fab fa-vuejs'
+
+aws:
+  id: 'AWS'
+  experience_level: 'Medium'
+  production_work: 'Yes'
+  fa-icon: 'fab fa-aws'

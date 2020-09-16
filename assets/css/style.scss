@@ -2,3 +2,21 @@
 ---
 @import "{{ site.theme }}";
 @import "main";
+
+.card {
+  display: flex;
+  margin: 10px;
+  width: 20rem;
+  img {
+    height: 60%;
+  }
+  .card-body {
+    background-color: #b5e853;
+    .card-title {
+      color: #151515;
+    }
+    .card-text {
+      color: #151515;
+    }
+  }
+}
