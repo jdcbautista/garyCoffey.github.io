@@ -29,7 +29,7 @@ plugins:
   - jekyll-sitemap
 
 
-google_analytics: UA-166811677-1
+google_analytics: UA-166811677-2
 
 defaults:
   -
