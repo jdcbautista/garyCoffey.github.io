@@ -10,9 +10,9 @@ layout: page
 {% assign category = page.dir | replace: '/', '' %}
   <div class="row">
     {% for post in site.categories[category] %}
-      <div class="col-sm-5 m-2">
+      <div class="col-auto m-2">
         <a href="{{ post.url }}">
-          <div class="card h-100">
+          <div class="card h-100 posts">
             {% if post.img %}
               <img class="card-img-top" src="{{post.img}}" alt="{{post.alt}}"/>
             {% else %}

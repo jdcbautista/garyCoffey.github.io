@@ -1,16 +1,17 @@
 ---
 layout: default
 ---
-<div class='header'>
-  {% if page.thumbnail %}
-    <img class='thumbnail' alt={{page.alt_text}} src={{page.thumbnail_src}}></img>
+<div class="card post">
+  {% if page.img %}
+    <img alt={{page.alt}} src={{page.img}}></img>
   {% endif %}
-  <h2>{{ page.title }}</h2>
-  {% if page.description %}
-    <p class='description'>{{ page.description }}</p>
-  {% endif %}
-
-  <p>{{ page.date | date: '%B %d, %Y' }}<p></p>
+  <div class="card-body">
+    <h5 class="card-title">{{ page.title }}</h5>
+    {% if page.description %}
+      <p class='description card-text'>{{ page.description }}</p>
+    {% endif %}
+    <p class="description card-text">{{ page.date | date: '%B %d, %Y' }}</p>
+  </div>
 </div>
 <hr/>
 
